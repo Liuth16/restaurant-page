@@ -1,2 +1,4 @@
+import "./styles.css";
+
+
 console.log("Working fine")
-alert("Working fine!!")
