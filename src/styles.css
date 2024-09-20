@@ -1,0 +1,88 @@
+/* CSS RESET */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  * {
+    margin: 0;
+  }
+
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+
+  input, button, textarea, select {
+    font: inherit;
+  }
+
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+
+  #root, #__next {
+    isolation: isolate;
+  }
+
+  /* End of reset */
+
+html{
+    background-image: url("./images/background.jpg");
+}
+
+nav {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: space-around;
+    align-items: center;
+    height: 5vh;
+}
+
+button {
+    height: fit-content;
+    padding: 1rem 2rem;
+    border: solid 1px black;
+    border-bottom: 0;
+    align-self: flex-end;
+}
+
+#content{
+    /* background-color: blue; */
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    background-color: rgba(33, 33, 33, 0.7);
+    color: white;
+    width: 50%;
+    height: 75%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.main p {
+    font-size: 2rem;
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+}
+
+.main img {
+    width: 30%;
+    height: auto;
+}
