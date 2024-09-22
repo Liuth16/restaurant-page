@@ -21,3 +21,5 @@ function createContact () {
 
     return contactContainer;
 }
+
+export {createContact};
